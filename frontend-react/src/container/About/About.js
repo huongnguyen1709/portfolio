@@ -11,14 +11,19 @@ const abouts = [
     imgUrl: images.about01,
   },
   {
-    title: 'Web Development',
+    title: 'Frontend Development',
     description: 'I am a good web developer',
     imgUrl: images.about02,
   },
   {
-    title: 'Web Development',
+    title: 'Backend Development',
     description: 'I am a good web developer',
     imgUrl: images.about03,
+  },
+  {
+    title: 'Backend Development',
+    description: 'I am a good web developer',
+    imgUrl: images.about04,
   },
 ];
 
@@ -27,10 +32,10 @@ const About = () => {
     <>
       <h2 className='head-text'>
         I know that
-        <span>Good Design</span>
+        <span> Good Development</span>
         <br />
         means
-        <span>Good business</span>
+        <span> Good business</span>
       </h2>
 
       <div className='app__profiles'>
