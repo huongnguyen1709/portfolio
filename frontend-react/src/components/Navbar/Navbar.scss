@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 1rem 2rem;
+  padding: 1rem 5rem;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
@@ -16,19 +16,11 @@
 }
 
 .app__navbar-logo {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  font-family: 'Rocher';
+  text-align: center;
+  font-size: 2.5rem;
 
-  img {
-    width: 90px;
-    height: 20px;
-
-    @media screen and (min-width: 2000px) {
-      width: 180px;
-      height: 40px;
-    }
-  }
+  font-palette: --Grays;
 }
 
 .app__navbar-links {
@@ -36,6 +28,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  // background-color: aqua;
 
   list-style: none;
 
