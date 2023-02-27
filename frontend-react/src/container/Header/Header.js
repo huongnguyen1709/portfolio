@@ -36,7 +36,14 @@ const Header = () => {
           </div>
 
           <div className='tag-cmp app__flex'>
-            <p className='p-text'>Full Stack Developer</p>
+            <p className='p-text'>Front-end Developer</p>
+          </div>
+
+          <div className='tag-cmp app__flex'>
+            <p className='p-text'>Back-end Developer</p>
+          </div>
+          <div className='tag-cmp app__flex'>
+            <p className='p-text'>Web Developer</p>
           </div>
         </div>
       </motion.div>
@@ -47,13 +54,6 @@ const Header = () => {
         className='app__header-img'
       >
         <img src={images.profile} alt='profile_bg' />
-        {/* <motion.img
-          whileInView={{ scale: [0, 1] }}
-          transition={{ duration: 1, ease: 'easeInOut' }}
-          className='overlay_circle'
-          src={images.circle}
-          alt='profile_circle'
-        /> */}
       </motion.div>
 
       <motion.div
