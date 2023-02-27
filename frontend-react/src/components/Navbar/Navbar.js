@@ -7,7 +7,7 @@ import './Navbar.scss';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  console.log(toggle);
+
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>

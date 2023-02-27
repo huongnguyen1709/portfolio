@@ -36,7 +36,6 @@ const Footer = () => {
       .then(() => {
         setLoading(false);
         setIsFormSubmitted(true);
-        console.log('success');
       })
       .catch((err) => console.log(err));
   };
