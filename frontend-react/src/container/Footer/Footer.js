@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
       ) : (
         <div style={{ marginTop: '3rem' }}>
-          <h3 className='head-text'>Thank you for getting in touch!</h3>
+          <h2>Thank you for getting in touch!</h2>
         </div>
       )}
     </>
